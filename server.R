@@ -3,8 +3,11 @@ library(GenomicRanges)
 library(SummarizedExperiment)
 library(BiocGenerics)
 library(AnnotationDbi)
+library(edgeR)
+library(GenomicFeatures)
 library(ggplot2)
 library(dplyr)
+
 
 shinyServer(function(input, output) {
   # Reactive expression to create GRanges object
